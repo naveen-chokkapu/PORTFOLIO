@@ -1,7 +1,7 @@
 import React from "react";
 import { TbBrandCpp, TbBrandVscode } from "react-icons/tb";
 import { DiGit, DiJavascript1, DiMongodb } from "react-icons/di";
-import { SiMysql, SiExpress, SiTailwindcss, SiVscodium } from "react-icons/si";
+import { SiMysql, SiExpress, SiTailwindcss } from "react-icons/si";
 import {
   FaHtml5,
   FaCss3,
