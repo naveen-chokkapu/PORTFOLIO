@@ -6,7 +6,7 @@ import Footer from "./Footer";
 const About = () => {
   return (
     <div>
-      <div className="h-screen bg-gradient-to-r from-red-500/[0] to-violet-500/[0.2]">
+      <div className="h-fit bg-gradient-to-r from-red-500/[0] to-violet-500/[0.2]">
         <div className="">
           <Header />
         </div>
