@@ -1,0 +1,101 @@
+import { AiOutlineHome } from "react-icons/ai";
+home, 
+    photo
+    linkedin
+    resume
+    short intro 2-3 lines
+    coding profiles:
+        code chef
+        hacker rank
+        code forces
+        leet code
+        gfg
+        coding ninjas
+        at coder
+        hacker earth
+        code signal
+
+import { FcAbout } from "react-icons/fc";
+about, 
+    include *education
+    interests
+    quick summary
+    skills:
+        programming - c/c++, python
+        web essentials - html, css, js
+        frameworks and libraries - [bootstrap, express],[react, jquery]
+        databases - mongodb, mysql
+        tools - git, vscode, npm
+
+        course work subjects:
+        os, dbms, cn, oops
+
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+projects, 
+    farm bank
+    portfolio
+    qr
+    url
+    blog
+    e commerce
+    online editor
+
+import { RiMedalLine } from "react-icons/ri";
+achievements and certifications, 
+    TOP 4 in coding contest (clg)
+    coding ninjas top ranks
+    google codejam farewell
+    global rank 54 in code chef starters 113C
+    ccdsa
+    DBMS certification @nptel
+    all certifications-hacker rank
+
+<footer>
+    designed and developed by -- 
+    copyright c 2024 N.C
+    github, linkedin, insta, discord, telegram, email
+
+ background-color: #282c34;
+    
+.handles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5% 0 0 16%;
+}
+.handle {
+    display: flex;
+    margin: 0;
+    padding: 1%;
+    position: relative;
+    border-radius: 50%;
+}
+.handle img {
+    height: 100%;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0px 0px 1px 1px rgb(200, 135, 50);
+    transition: transform 1000ms;
+}
+.handle:hover img{
+    transform: scale(1.1);
+    transition: transform 1000ms;
+    filter: brightness(0.5);
+}
+.handle:hover .text {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+.handle .text {
+    top: 25%;
+    left: 0;
+    color: white;
+    font-weight: bolder;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+    transition: opacity 1000ms;
+}
